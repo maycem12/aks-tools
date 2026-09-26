@@ -13,8 +13,7 @@ on:
       rg_name:
         description: "Put the name of the resource group to use"
         required: true
-        default: "student20
-        -rg-dev"
+        default: "student20-rg-dev"
         type: string
       cluster_name:
         description: "Put the name of the AKS cluster to use"
